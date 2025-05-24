@@ -14,6 +14,16 @@ class Employee:
         product = a*b
         print(product)
 
+    def division(a, b):
+        division = a/b
+        print(division)
+
+    def floor_division(a, b):
+        floorDivision = a//b
+        print(floorDivision)
+
 Employee.add( 12, 12)
 Employee.substract( 12, 13)
 Employee.multiply( 12, 12)
+Employee.division( 26, 12)
+Employee.floor_division( 25, 12)
